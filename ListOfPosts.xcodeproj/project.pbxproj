@@ -12,6 +12,7 @@
 		C22832C02AABB8950080B9E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C22832BF2AABB8950080B9E1 /* Assets.xcassets */; };
 		C22832C32AABB8950080B9E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C22832C12AABB8950080B9E1 /* LaunchScreen.storyboard */; };
 		C240C67B2ABA4F8D001F9E12 /* PostsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C240C67A2ABA4F8D001F9E12 /* PostsTableViewController.swift */; };
+		C240C67D2ABA527D001F9E12 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = C240C67C2ABA527D001F9E12 /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C22832C22AABB8950080B9E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C22832C42AABB8950080B9E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C240C67A2ABA4F8D001F9E12 /* PostsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsTableViewController.swift; sourceTree = "<group>"; };
+		C240C67C2ABA527D001F9E12 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				C22832B62AABB8930080B9E1 /* AppDelegate.swift */,
 				C22832B82AABB8930080B9E1 /* SceneDelegate.swift */,
+				C240C67C2ABA527D001F9E12 /* Post.swift */,
 				C240C67A2ABA4F8D001F9E12 /* PostsTableViewController.swift */,
 				C22832BF2AABB8950080B9E1 /* Assets.xcassets */,
 				C22832C12AABB8950080B9E1 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 				C22832B72AABB8930080B9E1 /* AppDelegate.swift in Sources */,
 				C240C67B2ABA4F8D001F9E12 /* PostsTableViewController.swift in Sources */,
 				C22832B92AABB8930080B9E1 /* SceneDelegate.swift in Sources */,
+				C240C67D2ABA527D001F9E12 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
