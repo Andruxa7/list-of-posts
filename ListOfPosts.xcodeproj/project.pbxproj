@@ -14,6 +14,8 @@
 		C240C67B2ABA4F8D001F9E12 /* PostsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C240C67A2ABA4F8D001F9E12 /* PostsTableViewController.swift */; };
 		C240C67D2ABA527D001F9E12 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = C240C67C2ABA527D001F9E12 /* Post.swift */; };
 		C240C67F2ABA536C001F9E12 /* NetworkPostsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C240C67E2ABA536C001F9E12 /* NetworkPostsManager.swift */; };
+		C240C6842ABA5595001F9E12 /* PostsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C240C6832ABA5595001F9E12 /* PostsTableViewCell.swift */; };
+		C240C6872ABA56EC001F9E12 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C240C6862ABA56EC001F9E12 /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,7 @@
 		C240C67A2ABA4F8D001F9E12 /* PostsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsTableViewController.swift; sourceTree = "<group>"; };
 		C240C67C2ABA527D001F9E12 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		C240C67E2ABA536C001F9E12 /* NetworkPostsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkPostsManager.swift; sourceTree = "<group>"; };
+		C240C6832ABA5595001F9E12 /* PostsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C240C6872ABA56EC001F9E12 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				C240C67A2ABA4F8D001F9E12 /* PostsTableViewController.swift */,
+				C240C6832ABA5595001F9E12 /* PostsTableViewCell.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -110,6 +115,9 @@
 			dependencies = (
 			);
 			name = ListOfPosts;
+			packageProductDependencies = (
+				C240C6862ABA56EC001F9E12 /* SnapKit */,
+			);
 			productName = ListOfPosts;
 			productReference = C22832B32AABB8930080B9E1 /* ListOfPosts.app */;
 			productType = "com.apple.product-type.application";
@@ -138,6 +146,9 @@
 				Base,
 			);
 			mainGroup = C22832AA2AABB8930080B9E1;
+			packageReferences = (
+				C240C6852ABA56EC001F9E12 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = C22832B42AABB8930080B9E1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -167,6 +178,7 @@
 				C22832B72AABB8930080B9E1 /* AppDelegate.swift in Sources */,
 				C240C67B2ABA4F8D001F9E12 /* PostsTableViewController.swift in Sources */,
 				C22832B92AABB8930080B9E1 /* SceneDelegate.swift in Sources */,
+				C240C6842ABA5595001F9E12 /* PostsTableViewCell.swift in Sources */,
 				C240C67D2ABA527D001F9E12 /* Post.swift in Sources */,
 				C240C67F2ABA536C001F9E12 /* NetworkPostsManager.swift in Sources */,
 			);
@@ -374,6 +386,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C240C6852ABA56EC001F9E12 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C240C6862ABA56EC001F9E12 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C240C6852ABA56EC001F9E12 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C22832AB2AABB8930080B9E1 /* Project object */;
 }
