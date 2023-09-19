@@ -120,6 +120,27 @@ class PostsTableViewController: UITableViewController {
         
         return cell
     }
+    
+    
+    // MARK: - UITableViewDelegate
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if let indexPath = self.tableView.indexPathForSelectedRow {
+            let currentPostItem = currentPosts[indexPath.row]
+            self.currentPostID = currentPostItem.postID
+        }
+        
+        let nextVC = DetailsOfPostViewController()
+        nextVC.title = "Post details"
+        
+        if let currentPostID = self.currentPostID {
+            nextVC.currentPostID = currentPostID
+        }
+        
+        navigationController?.pushViewController(nextVC, animated: true)
+        
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
 }
 
 

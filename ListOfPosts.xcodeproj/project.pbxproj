@@ -20,6 +20,7 @@
 		C240C68B2ABA5B90001F9E12 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C240C68A2ABA5B90001F9E12 /* Extensions.swift */; };
 		C240C68D2ABA5E42001F9E12 /* PostDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = C240C68C2ABA5E42001F9E12 /* PostDetails.swift */; };
 		C240C68F2ABA5F99001F9E12 /* DetailsOfPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C240C68E2ABA5F99001F9E12 /* DetailsOfPostViewController.swift */; };
+		C240C6932ABA61D4001F9E12 /* DetailsOfPostVC+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C240C6922ABA61D4001F9E12 /* DetailsOfPostVC+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		C240C68A2ABA5B90001F9E12 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		C240C68C2ABA5E42001F9E12 /* PostDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetails.swift; sourceTree = "<group>"; };
 		C240C68E2ABA5F99001F9E12 /* DetailsOfPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsOfPostViewController.swift; sourceTree = "<group>"; };
+		C240C6922ABA61D4001F9E12 /* DetailsOfPostVC+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailsOfPostVC+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				C240C68E2ABA5F99001F9E12 /* DetailsOfPostViewController.swift */,
+				C240C6922ABA61D4001F9E12 /* DetailsOfPostVC+Extension.swift */,
 			);
 			path = DetailsOfPostViewController;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				C240C6842ABA5595001F9E12 /* PostsTableViewCell.swift in Sources */,
 				C240C6892ABA597F001F9E12 /* ListFilter.swift in Sources */,
 				C240C67D2ABA527D001F9E12 /* Post.swift in Sources */,
+				C240C6932ABA61D4001F9E12 /* DetailsOfPostVC+Extension.swift in Sources */,
 				C240C67F2ABA536C001F9E12 /* NetworkPostsManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
