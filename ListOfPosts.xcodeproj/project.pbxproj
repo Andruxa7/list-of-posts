@@ -19,6 +19,7 @@
 		C240C6892ABA597F001F9E12 /* ListFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C240C6882ABA597F001F9E12 /* ListFilter.swift */; };
 		C240C68B2ABA5B90001F9E12 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C240C68A2ABA5B90001F9E12 /* Extensions.swift */; };
 		C240C68D2ABA5E42001F9E12 /* PostDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = C240C68C2ABA5E42001F9E12 /* PostDetails.swift */; };
+		C240C68F2ABA5F99001F9E12 /* DetailsOfPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C240C68E2ABA5F99001F9E12 /* DetailsOfPostViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		C240C6882ABA597F001F9E12 /* ListFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFilter.swift; sourceTree = "<group>"; };
 		C240C68A2ABA5B90001F9E12 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		C240C68C2ABA5E42001F9E12 /* PostDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetails.swift; sourceTree = "<group>"; };
+		C240C68E2ABA5F99001F9E12 /* DetailsOfPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsOfPostViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,9 +95,8 @@
 		C240C6812ABA543C001F9E12 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				C240C67A2ABA4F8D001F9E12 /* PostsTableViewController.swift */,
-				C240C6832ABA5595001F9E12 /* PostsTableViewCell.swift */,
-				C240C6882ABA597F001F9E12 /* ListFilter.swift */,
+				C240C6902ABA5FB6001F9E12 /* PostsTableViewController */,
+				C240C6912ABA5FCC001F9E12 /* DetailsOfPostViewController */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -106,6 +107,24 @@
 				C22832C12AABB8950080B9E1 /* LaunchScreen.storyboard */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		C240C6902ABA5FB6001F9E12 /* PostsTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C240C67A2ABA4F8D001F9E12 /* PostsTableViewController.swift */,
+				C240C6832ABA5595001F9E12 /* PostsTableViewCell.swift */,
+				C240C6882ABA597F001F9E12 /* ListFilter.swift */,
+			);
+			path = PostsTableViewController;
+			sourceTree = "<group>";
+		};
+		C240C6912ABA5FCC001F9E12 /* DetailsOfPostViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C240C68E2ABA5F99001F9E12 /* DetailsOfPostViewController.swift */,
+			);
+			path = DetailsOfPostViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C240C68F2ABA5F99001F9E12 /* DetailsOfPostViewController.swift in Sources */,
 				C240C68D2ABA5E42001F9E12 /* PostDetails.swift in Sources */,
 				C22832B72AABB8930080B9E1 /* AppDelegate.swift in Sources */,
 				C240C67B2ABA4F8D001F9E12 /* PostsTableViewController.swift in Sources */,
