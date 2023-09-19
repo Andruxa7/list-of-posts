@@ -16,6 +16,8 @@
 		C240C67F2ABA536C001F9E12 /* NetworkPostsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C240C67E2ABA536C001F9E12 /* NetworkPostsManager.swift */; };
 		C240C6842ABA5595001F9E12 /* PostsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C240C6832ABA5595001F9E12 /* PostsTableViewCell.swift */; };
 		C240C6872ABA56EC001F9E12 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C240C6862ABA56EC001F9E12 /* SnapKit */; };
+		C240C6892ABA597F001F9E12 /* ListFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C240C6882ABA597F001F9E12 /* ListFilter.swift */; };
+		C240C68B2ABA5B90001F9E12 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C240C68A2ABA5B90001F9E12 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		C240C67C2ABA527D001F9E12 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		C240C67E2ABA536C001F9E12 /* NetworkPostsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkPostsManager.swift; sourceTree = "<group>"; };
 		C240C6832ABA5595001F9E12 /* PostsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsTableViewCell.swift; sourceTree = "<group>"; };
+		C240C6882ABA597F001F9E12 /* ListFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFilter.swift; sourceTree = "<group>"; };
+		C240C68A2ABA5B90001F9E12 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,7 @@
 			children = (
 				C22832B62AABB8930080B9E1 /* AppDelegate.swift */,
 				C22832B82AABB8930080B9E1 /* SceneDelegate.swift */,
+				C240C68A2ABA5B90001F9E12 /* Extensions.swift */,
 				C240C6802ABA540D001F9E12 /* Models */,
 				C240C6812ABA543C001F9E12 /* Controllers */,
 				C240C6822ABA5461001F9E12 /* Views */,
@@ -87,6 +92,7 @@
 			children = (
 				C240C67A2ABA4F8D001F9E12 /* PostsTableViewController.swift */,
 				C240C6832ABA5595001F9E12 /* PostsTableViewCell.swift */,
+				C240C6882ABA597F001F9E12 /* ListFilter.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -178,7 +184,9 @@
 				C22832B72AABB8930080B9E1 /* AppDelegate.swift in Sources */,
 				C240C67B2ABA4F8D001F9E12 /* PostsTableViewController.swift in Sources */,
 				C22832B92AABB8930080B9E1 /* SceneDelegate.swift in Sources */,
+				C240C68B2ABA5B90001F9E12 /* Extensions.swift in Sources */,
 				C240C6842ABA5595001F9E12 /* PostsTableViewCell.swift in Sources */,
+				C240C6892ABA597F001F9E12 /* ListFilter.swift in Sources */,
 				C240C67D2ABA527D001F9E12 /* Post.swift in Sources */,
 				C240C67F2ABA536C001F9E12 /* NetworkPostsManager.swift in Sources */,
 			);
