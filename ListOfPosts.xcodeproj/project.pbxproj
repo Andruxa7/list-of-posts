@@ -18,6 +18,7 @@
 		C240C6872ABA56EC001F9E12 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C240C6862ABA56EC001F9E12 /* SnapKit */; };
 		C240C6892ABA597F001F9E12 /* ListFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C240C6882ABA597F001F9E12 /* ListFilter.swift */; };
 		C240C68B2ABA5B90001F9E12 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C240C68A2ABA5B90001F9E12 /* Extensions.swift */; };
+		C240C68D2ABA5E42001F9E12 /* PostDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = C240C68C2ABA5E42001F9E12 /* PostDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		C240C6832ABA5595001F9E12 /* PostsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsTableViewCell.swift; sourceTree = "<group>"; };
 		C240C6882ABA597F001F9E12 /* ListFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFilter.swift; sourceTree = "<group>"; };
 		C240C68A2ABA5B90001F9E12 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C240C68C2ABA5E42001F9E12 /* PostDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			children = (
 				C240C67E2ABA536C001F9E12 /* NetworkPostsManager.swift */,
 				C240C67C2ABA527D001F9E12 /* Post.swift */,
+				C240C68C2ABA5E42001F9E12 /* PostDetails.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C240C68D2ABA5E42001F9E12 /* PostDetails.swift in Sources */,
 				C22832B72AABB8930080B9E1 /* AppDelegate.swift in Sources */,
 				C240C67B2ABA4F8D001F9E12 /* PostsTableViewController.swift in Sources */,
 				C22832B92AABB8930080B9E1 /* SceneDelegate.swift in Sources */,
